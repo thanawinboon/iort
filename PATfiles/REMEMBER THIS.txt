@@ -1,0 +1,26 @@
+========== CLI ==========
+
+#to empty trash
+rm -rf ~/.local/share/Trash/*
+
+
+#to kill a python file
+ps -ef|grep python
+sudo kill (number of the file to kill)
+
+#to stop auto run python file on start
+sudo nano /etc/rc.local
+
+#to update raspberry pi
+sudo apt-get update
+sudo apt-get upgrade
+
+#camera CLI
+raspistill (for picture)
+raspivid (for video)
+-o //filename//
+-t //duration in miliseconds
+
+#play video
+cd /home/pi/PATfiles/........
+omxplayer (filename + extension)
