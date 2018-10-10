@@ -27,5 +27,5 @@ omxplayer (filename + extension)
 
 #github 
 cd (location you wanna put the files to)
-git clone (ur of the repository)
+sudo git clone (ur of the repository)
 (My repository https://github.com/thanawinboon/iort.git)
